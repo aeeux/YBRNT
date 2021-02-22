@@ -179,22 +179,22 @@
     color: red;
 }
 
+/* Price */
 
+.price {
+    color: var(--offyellow);
+}
 
+/* Sales-sign */
 
+.onsale {
+    background-color: var(--offyellow);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.woocommerce ul.products li.product .onsale {
+    color: var(--offyellow);
+    background-color: var(--offblack);
+   }
 
 /* Product-meta */
 
