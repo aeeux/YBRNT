@@ -1,0 +1,229 @@
+/*
+ Theme Name:   Kadence child
+ Description:  This is a child theme rebrand of kadence
+ Author:       Andreas Erik Eriksen
+ Template:     kadence
+*/
+
+/* Variables */
+
+:root{
+    --offwhite: #fafafa;
+    --offblack: #303030;
+    --red: #FF0000;
+    --offyellow: #FCF3CF;
+}
+
+/* -----Mobile----- */
+
+/* -----buttons----- */
+
+/* shop-btn */
+
+.shop-btn {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--offyellow);
+    background: var(--red);
+    border-radius: 4px;
+    padding: 5px 5px 5px 5px;
+}
+
+.shop-btn:hover {
+    color: var(--offblack);
+    background: var(--offwhite);
+}
+
+.shop-btn {
+    position: absolute;
+    margin: 10px 200px 200px 0px;
+}
+
+/* cart-btn */
+
+.button, .wc-forward {
+    background-color: red;
+}
+
+.button, .wc-forward.button {
+    background-color: var(--red);
+}
+
+.button, .wc-forward.button:hover {
+    background-color: var(--offyellow);
+    color: var(--offblack);
+}
+
+/* images */
+
+.wp-image-84 {
+    width: 40vh;
+    height: auto;
+
+    z-index: -1;
+    filter: grayscale(10%) sepia(10%);
+}
+
+/* Header & navbar */
+
+.site-header-row-container-inner {
+    background-color: var(--offblack);
+}
+
+/* footer */
+
+.site-footer-row-container-inner {
+    background-color: var(--offyellow);
+    z-index: 10;
+}
+
+/* Cart POP-OUT menu */
+
+#cart-drawer{
+    background-color: rgba(255, 0, 0, 0.281);
+    color: red;
+}
+
+/* burger menu */
+
+
+
+/* Backgrounds & Cards */
+
+.entry-content-wrap {
+    background-color: var(--offblack);
+
+}
+
+#inner-wrap {
+    background-color: var(--offblack);
+}
+
+/* Hero section */
+
+.hero-section-overlay{
+    background-color: var(--offblack);
+}
+
+.entry-title {
+    color: var(--red);
+}
+
+.page-title, .archive-title {
+    color: var(--red);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Product-meta */
+
+
+
+/* -----Tablet Queries----- */
+
+@media screen and (min-width: 860px) {
+    .wp-image-84 {
+        width: 100vh;
+        height: auto;
+    }
+
+    .entry-content p {
+        padding: 0px 0px 0px 0px;
+    }
+
+  }
+
+/* -----PC Queries----- */
+
+@media screen and (min-width: 1160px) {
+    .wp-image-84 {
+        margin-left: 500px;
+        margin-top: -500px;
+    }
+
+    .entry-content p {
+        padding: 0px 520px 0px 0px;
+    }
+
+  }
