@@ -122,40 +122,40 @@
 
 
 
+/* Paragraphs */
+
+.entry-content p {
+    font-size: 30px;
+    color: var(--offyellow);
+    z-index: 10;
+    mix-blend-mode:inherit;
+}
+
+/* Woocommerce disables */
+
+.kadence-product-toggle-container, .kadence-product-toggle-outer{
+    display: none;
+}
+
+.kadence-shop-top-item {
+    display: none;
+}
+
+.woocommerce-ordering {
+    display: none;
+}
+
+.woocommerce-tabs {
+    display: none;
+}
 
 
+/* Woocommerce result count in breadcrumbs */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.woocommerce-result-count{
+    color: red;
+}
 
 
 
