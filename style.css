@@ -113,14 +113,14 @@
     color: var(--red);
 }
 
+/* H2 title frontpage */
 
-
-
-
-
-
-
-
+.single-content h2 {
+    padding-top: 4em;
+    padding-bottom: 1em;
+    color: var(--red);
+    text-align: center;
+}
 
 /* Paragraphs */
 
